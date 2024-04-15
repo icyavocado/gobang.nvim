@@ -3,23 +3,22 @@
 ==============================================================================
 Table of Contents                         *my-template-docs-table-of-contents*
 
-1. A Neovim Plugin Template        |my-template-docs-a-neovim-plugin-template|
-  - Features and structure|my-template-docs-a-neovim-plugin-template-features-and-structure|
+1. Gobang.nvim                                  |my-template-docs-gobang.nvim|
 2. Links                                              |my-template-docs-links|
 
 ==============================================================================
-1. A Neovim Plugin Template        *my-template-docs-a-neovim-plugin-template*
+1. Gobang.nvim                                  *my-template-docs-gobang.nvim*
+
+Open gobang in neovim Gobang: https://github.com/TaKO8Ki/gobang
 
 
 
 
-FEATURES AND STRUCTURE*my-template-docs-a-neovim-plugin-template-features-and-structure*
+ROADMAPS ~
 
-- 100% Lua
-- Github actions for:
-    - running tests using plenary.nvim <https://github.com/nvim-lua/plenary.nvim> and busted <https://olivinelabs.com/busted/>
-    - check for formatting errors (Stylua)
-    - vimdocs autogeneration from README.md file
+- Keep gobang open for a period of time, allow toggling of the window
+- Add tests
+- Update docs
 
 ==============================================================================
 2. Links                                              *my-template-docs-links*
