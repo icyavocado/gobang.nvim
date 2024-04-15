@@ -20,6 +20,9 @@ ROADMAPS ~
 - Add tests
 - Update docs
 
+Huge thanks to lazygit.nvim <https://github.com/kdheepak/lazygit.nvim>, I
+learned a lot by reading and mirroring the plugin.
+
 ==============================================================================
 2. Links                                              *my-template-docs-links*
 
