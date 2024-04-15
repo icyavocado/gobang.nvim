@@ -31,5 +31,6 @@ if vim.fn.exists("g:gobang_config_file_path") == 0 then
 end
 
 vim.cmd("command! Gobang lua require('gobang').gobang()")
+vim.cmd("command! GobangConfig lua require('gobang').gobang_config()")
 
 vim.g.loaded_gobang_nvim = 1

@@ -1,6 +1,7 @@
 -- main module file
 local module = require("gobang.module")
 local open_floating_window = require("gobang.window").open_floating_window
+local open_or_create_config = require("gobang.utils").open_or_create_config
 
 GOBANG_BUFFER = nil
 GOBANG_LOADED = false
@@ -69,7 +70,21 @@ M.gobang = function()
 
   local cmd = "gobang"
 
+  if vim.g.gobang_use_custom_config_file_path == 1 then
+    local config_path = module.gobang_get_config_path()
+    if type(config_path) == "table" then
+      config_path = table.concat(config_path, ",")
+      return
+    end
+    cmd = cmd .. " --config-file '" .. config_path .. "'"
+  end
+
   exec_gobang_command(cmd)
+end
+
+M.gobang_config = function()
+  local config_path = module.gobang_get_config_path()
+  open_or_create_config(config_path)
 end
 
 return M
