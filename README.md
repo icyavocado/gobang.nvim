@@ -11,3 +11,5 @@ Gobang: https://github.com/TaKO8Ki/gobang
 - Keep gobang open for a period of time, allow toggling of the window
 - Add tests
 - Update docs
+
+Huge thanks to [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim), I learned a lot by reading and mirroring the plugin.
