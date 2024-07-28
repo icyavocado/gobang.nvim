@@ -7,6 +7,13 @@ Gobang: https://github.com/TaKO8Ki/gobang
 
 ![image](https://github.com/icyavocado/gobang.nvim/assets/45118765/c7d2388a-c3e9-4699-be86-e9543c4f6231)
 
+### LazyVim
+```lua
+{
+  "icyavocado/gobang.nvim"
+}
+```
+
 ### Roadmaps
 - Keep gobang open for a period of time, allow toggling of the window
 - Add tests
